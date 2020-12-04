@@ -34,6 +34,16 @@ function AboutMe() {
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </li>
+                                <li className="list-inline-item icon">
+                                    <a href="https://www.linkedin.com/in/muhammed-ekinci-622738194/" rel="noreferrer" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li className="list-inline-item icon">
+                                    <a href="https://www.facebook.com/siraceddin.ekinci" rel="noreferrer" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </Col>

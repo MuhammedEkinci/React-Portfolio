@@ -39,6 +39,10 @@ div {
     position: relative;
 }
 
+ul.network-icon {
+    padding: 0;
+    margin: 0;
+}
 
 
 
