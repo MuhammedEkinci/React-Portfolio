@@ -1,0 +1,16 @@
+.cards {
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+
+.btn {
+    margin: 10px
+}
+
+.card:hover {
+    box-shadow: 0 0 3px 2px black;
+}
+
+.cardImage {
+    padding-top: 10px;
+}

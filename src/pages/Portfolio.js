@@ -18,9 +18,9 @@ function Portfolio() {
                                         <div className="card-body">
                                             <Card.Body>
                                                 <Card.Title className="cardHeader">{project.name}</Card.Title>
-                                                <Card.Text className="devText">{project.text}</Card.Text>
-                                                <Button className="btn app" onClick={(e) => {e.preventDefault(); window.location.href=`${project.appUrl}`}}>Deploy The App</Button>
-                                                <Button className="btn githubBtn" onClick={(e) => {e.preventDefault(); window.location.href=`${project.githubUrl}`}}>Github Repository</Button>
+                                                <Card.Text className="project-text">{project.text}</Card.Text>
+                                                <Button className="app-btn" variant="outline-primary"  onClick={(e) => {e.preventDefault(); window.location.href=`${project.appUrl}`}}>Deploy The App</Button>
+                                                <Button className="github-btn" variant="outline-primary" onClick={(e) => {e.preventDefault(); window.location.href=`${project.githubUrl}`}}>Github Repository</Button>
                                             </Card.Body>
                                         </div>
                                     </Card>
@@ -29,28 +29,6 @@ function Portfolio() {
                         );
                     })}
                 </CardDeck>
-            
-                {/* <div className="cardDeck">
-                <Col size="lg-12">
-                    <CardDeck>
-                        {data.map((dev, i) => {
-                            return (
-                                <div key={i} className="cards">
-                                    <Card.Body>
-                                        <CardImg className='cardImage' src={dev.image} alt={dev.alt}></CardImg>
-                                        <div className="devCardStuff">
-                                        <Card.Title className="cardHeader">{dev.name}</Card.Title>
-                                        <Card.Text className="devText">{dev.text}</Card.Text>
-                                        <button className="btn app"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.appUrl}`}}>Deploy The App</button>
-                                        <button className="btn githubBtn"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.githubUrl}`}}>Github Repository</button>
-                                        </div>
-                                    </Card.Body>
-                                </div>
-                            )
-                        })}
-                    </CardDeck>
-                </Col>
-                </div> */}
             </Row>
         </Container>
     );
