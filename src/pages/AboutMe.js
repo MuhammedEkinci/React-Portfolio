@@ -49,13 +49,77 @@ function AboutMe() {
                     </Col>
                     <Col sm={12} lg={8}>
                         <h1 id="header-title">Biography</h1>
-                        <br></br>
                         <p>My name is Muhamed Ekinci and I am currently a senior at William Paterson University for Computer Science</p>
-                        <br></br>
-                        <p></p>
+                        <p>I</p>
+                        <Row>
+                            <Col md={7}>
+                                <h3>Education</h3>
+                                <ul className="ul-edu fa-ul">
+                                    <li>
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <div className="descriptions">
+                                            <p className="course">Wayne Valley Highschool, 2017</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <div className="descriptions">
+                                            <p className="course">Current CS Major in WPU, Expected to Graduate 2021</p>
+                                            <p className="institution">William Paterson University</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
+            <section id="skills-class" className="home-section">
+                <Container className="container">
+                    <Row className="featurette">
+                        <Col md={12} className="section-heading">
+                            <h1>Skills</h1>
+                        </Col>
+                        <Col sm={4}>
+                            <div className="featurette-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <h3>JavaScript</h3>
+                        </Col>
+                        <Col sm={4}>
+                            <div className="featurette-icon">
+                                <i class="fab fa-react"></i>                            
+                            </div>
+                            <h3>React</h3>
+                        </Col>
+                        <Col sm={4}>
+                            <div className="featurette-icon">
+                                <i class="fab fa-html5"></i>                            
+                            </div>
+                            <h3>HTML5</h3>
+                        </Col>
+                        <Col sm={4}>
+                            <div className="featurette-icon">
+                                <i class="fab fa-css3-alt"></i>                            
+                            </div>
+                            <h3>CSS3</h3>
+                        </Col>
+                        <Col sm={4}>
+                            <div className="featurette-icon">
+                                <i class="fab fa-node-js"></i>                            
+                            </div>
+                            <h3>Node.js</h3>
+                        </Col>
+                        <Col sm={4}>
+                            <div className="featurette-icon">
+                                <i class="fas fa-database"></i>                            
+                            </div>
+                            <h3>Databases</h3>
+                            <p>MySQL, MongoDB</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
         </div>
     );
 };
