@@ -1,0 +1,32 @@
+h1.contact {
+    padding: 1.5em;
+} 
+
+
+.icon-links a:hover {
+    color: #d0e1f0ce;
+    transition: 0.35s;
+    transform: scale(3);
+}
+
+#contact-form {
+    align-items: center;
+}
+
+label {
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .fa-3x {
+        font-size: 225%;
+    }
+ 
+     .icon {
+         padding: .6rem;
+     }
+ 
+     form {
+         margin: 1em;
+     }
+}

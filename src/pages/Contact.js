@@ -1,18 +1,15 @@
 import React from 'react';
-import Container from "../components/Container";
 import { Container, Row, Col } from "react-bootstrap";
 import Wrapper from '../components/Wrapper';
 import '../styles/Contact.css';
 
 function Contact() {
     return (
-        <div className="bg-dark text-light">
-            <Wrapper className="bg-dark text-light">
+        <div className="bg-light text-light">
+            <Wrapper className="bg-light text-light">
                 {/* Contact Form */}
                 <Container className="form">
-                    <Row size="md-12 text-center" className="bg-dark text-light">
-                        <Col size="md-1">
-                        </Col>
+                    <Row size="md-12 text-center" className="bg-light text-light">
                         <Col size="md-10">
                             <form id="contact-form" method="POST" action="https://formspree.io/f/xrgoqaoq">
                                 <div className="controls">
@@ -22,7 +19,7 @@ function Contact() {
                                             <div class="form-group">
                                                 {/* First Name */}
                                                 <label for="form_name">First Name *</label>
-                                                <input id="form_name" type="text" name="name" className="form-control" placeholder="John" required="required" data-error="Firstname is required." />
+                                                <input id="form_name" type="text" name="name" className="form-control" placeholder="Nick" required="required" data-error="Firstname is required." />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </Col>
@@ -31,7 +28,7 @@ function Contact() {
                                             <div className="form-group">
                                                 {/* Last Name */}
                                                 <label for="form_lastname">Last Name *</label>
-                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required="required" data-error="Lastname is required." />
+                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Blah" required="required" data-error="Lastname is required." />
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </Col>
@@ -42,7 +39,7 @@ function Contact() {
                                             <div className="form-group">
                                                 {/* Email */}
                                                 <label for="form_email">E-mail *</label>
-                                                <input id="form_email" type="email" name="email" className="form-control" placeholder="johndoe@email.com" required="required" data-error="Valid email is required." />
+                                                <input id="form_email" type="email" name="email" className="form-control" placeholder="example@email.com" required="required" data-error="Valid email is required." />
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </Col>
@@ -62,7 +59,7 @@ function Contact() {
                                             <div className="form-group">
                                                 {/*  Message  */}
                                                 <label for="form_message">Message *</label>
-                                                <textarea id="form_message" name="message" className="form-control" placeholder="What can I do for you?" rows="6" required="required" data-error="Please include a message."></textarea>
+                                                <textarea id="form_message" name="message" className="form-control" placeholder="Message for me" rows="6" required="required" data-error="Please include a message."></textarea>
                                                 <div className="help-block with-errors"></div>
                                             </div>
                                         </Col>
@@ -72,14 +69,6 @@ function Contact() {
                                         {/* Submit Button */}
                                         <input type="submit" className="btn btn-outline-primary btn-send" value="Send message" />
                                     </Col>
-
-                                    <Row>
-                                        <Col size="md-12">
-                                            <p className="text-light"><strong>*</strong><i> These fields are required. </i></p>
-                                        </Col>
-                                        <Col size="md-1">
-                                        </Col>
-                                    </Row>
                                 </div>
                             </form>
                         </Col>
