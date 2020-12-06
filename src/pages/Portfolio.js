@@ -8,6 +8,9 @@ function Portfolio() {
     return (
         <Container fluid >
             <Row>
+                <Col md={12} className="project-heading">
+                    <h1 style={{textAlign: "center"}}>Projects</h1>
+                </Col>
                 <CardDeck>
                     {data.map((project, i) => {
                         return (

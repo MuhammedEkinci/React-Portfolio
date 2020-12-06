@@ -49,8 +49,8 @@ function AboutMe() {
                     </Col>
                     <Col sm={12} lg={8}>
                         <h1 id="header-title">Biography</h1>
-                        <p>My name is Muhamed Ekinci and I am currently a senior at William Paterson University for Computer Science</p>
-                        <p>I</p>
+                        <p>My name is Muhammed Ekinci and I am currently a senior at William Paterson University majoring in Computer Science</p>
+                        <p>I </p>
                         <Row>
                             <Col md={7}>
                                 <h3>Education</h3>

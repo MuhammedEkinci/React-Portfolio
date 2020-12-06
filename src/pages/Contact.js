@@ -6,6 +6,9 @@ import '../styles/Contact.css';
 function Contact() {
     return (
         <div className="bg-light text-light">
+            <div className="contact-header">
+                <h1 style={{textAlign: "center"}}>Contact Me</h1>
+            </div>
             <Wrapper className="bg-light text-light">
                 {/* Contact Form */}
                 <Container className="form">

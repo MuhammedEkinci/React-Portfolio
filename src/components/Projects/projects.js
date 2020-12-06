@@ -22,7 +22,7 @@ const data = [
         image:"https://github.com/MuhammedEkinci/project-2/raw/master/images/meme-post.JPG" ,
         alt:"Meme-post",
         name:"Meme-Post",
-        text:"This is a fun project I wokred on that allows you to make your own memes and post them on to the website. It also allows you to like the memes that you or others made.",
+        text:"This is a fun project I worked on that allows you to make your own memes and post them on to the website. It also allows you to like the memes that you or others made.",
         appUrl: "https://secure-peak-03583.herokuapp.com/memes",
         githubUrl: "https://github.com/MuhammedEkinci/project-2"
     },
