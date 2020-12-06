@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../styles/AboutMe.css';
-import Picture from "../images/family.jpg";
+import Picture from "../images/MyProfile.JPG";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 
@@ -50,7 +50,10 @@ function AboutMe() {
                     <Col sm={12} lg={8}>
                         <h1 id="header-title">Biography</h1>
                         <p>My name is Muhammed Ekinci and I am currently a senior at William Paterson University majoring in Computer Science</p>
-                        <p>I </p>
+                        <p>I am a young programmer, eager to always learn new concepts and ideas that will further my skills, especially about Programming. 
+                            My dream is to become a Software Developer/Web Developer and I will do whatever it takes to accomplish that dream. 
+                            I love to help people, and what I love to make are fun applications that people would enjoy just to make their day a little brighter.    
+                        </p>
                         <Row>
                             <Col md={7}>
                                 <h3>Education</h3>
