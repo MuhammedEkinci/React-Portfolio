@@ -8,7 +8,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 function AboutMe() {
 
     return (
-        <div>
+        <div className="home-area" id="about">
             <Container fluid>
                 <Row>
                     <Col sm={12} lg={4}> 

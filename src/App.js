@@ -1,9 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import HomePage from "./pages/HomePage";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import "./styles/App.css"
 
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -12,14 +13,12 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-        <Router>
+        <Router basename="/ReactPortfolio">
           <Navbar />
-          <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/about" component={AboutMe} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
-          </Switch>
         </Router>
         <Footer />
     </div>
@@ -27,3 +26,4 @@ function App() {
 }
 
 export default App;
+

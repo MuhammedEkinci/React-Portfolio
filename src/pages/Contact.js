@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 
 function Contact() {
     return (
-        <div className="bg-light text-light">
+        <div className="bg-light text-light contact-area" id="contact">
             <div className="contact-header">
                 <h1 style={{textAlign: "center"}}>Contact Me</h1>
             </div>

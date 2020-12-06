@@ -11,13 +11,13 @@ export function NavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <a className="nav-link" href="/about">About Me</a>
+                    <a className="nav-link" href="#about">About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/portfolio">Portfolio</a>
+                    <a className="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact">Contact</a>
+                    <a className="nav-link" href="#contact">Contact</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link " href="https://drive.google.com/file/d/1Prp5MJ---xcCnFazIwLPL9EpGVV-VlgU/view?usp=sharing" target="_blank">Resume</a>
