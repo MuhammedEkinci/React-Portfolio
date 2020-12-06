@@ -5,7 +5,7 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
-
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 
@@ -21,6 +21,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </Router>
+        <Footer />
     </div>
   );
 }
