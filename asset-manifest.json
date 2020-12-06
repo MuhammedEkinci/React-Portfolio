@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MuhammedEkinci/React-Portfolio/static/css/main.c4e5b52b.chunk.css",
+    "main.js": "/MuhammedEkinci/React-Portfolio/static/js/main.d70ec528.chunk.js",
+    "main.js.map": "/MuhammedEkinci/React-Portfolio/static/js/main.d70ec528.chunk.js.map",
+    "runtime-main.js": "/MuhammedEkinci/React-Portfolio/static/js/runtime-main.b68d3480.js",
+    "runtime-main.js.map": "/MuhammedEkinci/React-Portfolio/static/js/runtime-main.b68d3480.js.map",
+    "static/css/2.86890625.chunk.css": "/MuhammedEkinci/React-Portfolio/static/css/2.86890625.chunk.css",
+    "static/js/2.6e54efb0.chunk.js": "/MuhammedEkinci/React-Portfolio/static/js/2.6e54efb0.chunk.js",
+    "static/js/2.6e54efb0.chunk.js.map": "/MuhammedEkinci/React-Portfolio/static/js/2.6e54efb0.chunk.js.map",
+    "index.html": "/MuhammedEkinci/React-Portfolio/index.html",
+    "static/css/2.86890625.chunk.css.map": "/MuhammedEkinci/React-Portfolio/static/css/2.86890625.chunk.css.map",
+    "static/css/main.c4e5b52b.chunk.css.map": "/MuhammedEkinci/React-Portfolio/static/css/main.c4e5b52b.chunk.css.map",
+    "static/js/2.6e54efb0.chunk.js.LICENSE.txt": "/MuhammedEkinci/React-Portfolio/static/js/2.6e54efb0.chunk.js.LICENSE.txt",
+    "static/media/MyProfile.eb8d4aaf.JPG": "/MuhammedEkinci/React-Portfolio/static/media/MyProfile.eb8d4aaf.JPG",
+    "static/media/Home.css": "/MuhammedEkinci/React-Portfolio/static/media/coding.28070a6c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b68d3480.js",
+    "static/css/2.86890625.chunk.css",
+    "static/js/2.6e54efb0.chunk.js",
+    "static/css/main.c4e5b52b.chunk.css",
+    "static/js/main.d70ec528.chunk.js"
+  ]
+}
