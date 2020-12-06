@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-        <Router basename="/ReactPortfolio">
+        <Router basename="/React-Portfolio">
           <Navbar />
             <Route exact path="/" component={HomePage} />
             <Route exact path="/about" component={AboutMe} />
