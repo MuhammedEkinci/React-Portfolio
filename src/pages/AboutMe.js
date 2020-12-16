@@ -52,7 +52,7 @@ function AboutMe() {
                         <p>My name is Muhammed Ekinci and I am currently a senior at William Paterson University majoring in Computer Science</p>
                         <p>I am a young programmer, eager to always learn new concepts and ideas that will further my skills, especially about Programming. 
                             My dream is to become a Software Developer/Web Developer and I will do whatever it takes to accomplish that dream. 
-                            I love to help people, and what I love to make are fun applications that people would enjoy just to make their day a little brighter.    
+                            I love to help people, and what I love most is to make fun applications that people would enjoy. Just to make their day a little brighter.    
                         </p>
                         <Row>
                             <Col md={7}>

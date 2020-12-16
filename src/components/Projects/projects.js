@@ -44,6 +44,15 @@ const data = [
         appUrl: " https://muhammedekinci.github.io/Weather-Dashboard/",
         githubUrl: "https://github.com/MuhammedEkinci/Weather-Dashboard"
     },
+    {
+        id: 6,
+        image:"https://github.com/1066JMay96/Meme-Post/raw/master/client/src/images/homepage.JPG" ,
+        alt:"Meme-Post",
+        name:"Meme-Post",
+        text:"An Application that allows you to create and post your own creative memes to your hearts content. If you find a meme that you cherish no problem you can just save it and if you feel like the meme is dead no problem just unsave it. Easy as that!",
+        appUrl: "https://warm-plains-99850.herokuapp.com/#/Meme-Post/",
+        githubUrl: "https://github.com/1066JMay96/Meme-Post"
+    },
 ]
 
 export default data;

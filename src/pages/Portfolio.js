@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Card, CardImg, CardDeck, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, CardDeck, Button } from "react-bootstrap";
 import data from "../components/Projects/projects";
 import "../styles/Portfolio.css";
 
