@@ -14,9 +14,8 @@ function Contact() {
                 <Container className="form">
                     <Row size="md-12 text-center" className="bg-light text-light">
                         <Col size="md-10">
-                            <form id="contact-form" method="POST" action="https://formspree.io/f/xrgoqaoq">
+                            <form id="contact-form" method="POST" action="https://formspree.io/f/xnqoobbo">
                                 <div className="controls">
-
                                     <Row className="text-center">
                                         <Col size="md-6">
                                             <div class="form-group">
