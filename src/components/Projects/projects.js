@@ -53,6 +53,15 @@ const data = [
         appUrl: "https://warm-plains-99850.herokuapp.com/#/Meme-Post/",
         githubUrl: "https://github.com/1066JMay96/Meme-Post"
     },
+    {
+        id: 7,
+        image:"https://github.com/MuhammedEkinci/Islamic-Cultural-Association-/raw/master/src/images/WebPage.png" ,
+        alt:"emicc",
+        name:"emicc",
+        text:"This is a web page for Elkton MaryLand Islamic Cultural Center",
+        appUrl: "https://emicc.herokuapp.com/",
+        githubUrl: "https://github.com/MuhammedEkinci/Islamic-Cultural-Association-"
+    }
 ]
 
 export default data;
