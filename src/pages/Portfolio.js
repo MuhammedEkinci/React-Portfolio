@@ -19,7 +19,7 @@ function Portfolio() {
                                     <div className="media stream-item">
                                         <div className="media-body">
                                             <h3 className="article-title mb-0 mt-0">
-                                                <a href={project.appUrl} target="_blank">{project.name}</a>
+                                                <a href={project.appUrl} target="_blank" style={{textDecoration: "none"}}>{project.name}</a>
                                             </h3>
                                             <div className="article-style">
                                                 <p>{project.text}</p>

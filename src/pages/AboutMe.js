@@ -17,7 +17,7 @@ function AboutMe() {
                                 <h2>Muhammed Siraceddin Ekinci</h2>
                                 <h3>CS Major Student</h3>
                                 <h3>
-                                    <a href="https://www.wpunj.edu/" target="_blank" rel="noopener">
+                                    <a href="https://www.wpunj.edu/" target="_blank" rel="noopener" style={{textDecoration: "none"}}> 
                                         <span>William Paterson University</span>
                                     </a>
                                 </h3>
